@@ -1,0 +1,29 @@
+Assumptions
+
+1. The pyarrow module is installed, otherwise the following imports will throw an error - No module named 'pyarrow'
+
+   If not installed and get an error of - No module named 'pyarrow'
+   
+   Then use one of the following:
+   
+   pyarrow with the conda package manager : conda install pyarrow -c conda-forge
+   OR
+   install binary wheels from PyPI with pip : pip install pyarrow
+
+
+2. For the statement in the pdf "Convert the weather data into parquet format", I have assumed that, I have to convert every csv into respective parquet file - as one to one.
+
+
+3. I have displayed/logged every stage of the process, which can be found in the "dlg-assignment-log-and-test-results.txt" file
+   - Reading CSV files & Printing the numberof reacords in each file
+   - Converting & Writing into Parquet files
+   - Reading Parquet files into Pandas
+   - Querying the data (for 3 results) from the Pandas and display the results which are displayed towards the end
+
+4. Assumed the following Directory Structure
+   C:\temp\dlg\documentation	: For documentations
+   C:\temp\dlg\scripts		: For scripts
+   C:\temp\dlg\raw		: For raw csv files
+   C:\temp\dlg\parquet		: For parquet files
+   C:\temp\dlg\test-results	: For test results
+
