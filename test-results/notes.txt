@@ -1,0 +1,1 @@
+This text file is to hold the summary information about the files realted to test scenario & results in this "test-results" folder
