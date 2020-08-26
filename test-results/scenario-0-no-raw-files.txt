@@ -1,0 +1,11 @@
+>>  ==========  Data Processing Job - data_process_job started ... : 2020-08-25 23:52:12.673512
+
+
+Raw Data Files Path ... : C:\\temp\dlg\\raw\\
+Raw Data File Names Pattern ... : weather*.csv
+Files to Process ... : []
+There are no source files to process in the given path ... : C:\\temp\dlg\\raw\\
+Status (convert_csv_to_parquet) ... {'Status': 'Failed'}
+
+The Final Status of the job - data_process_job  execution is ... : {'Status': 'Failed'}
+>>  ==========  Data Processing Job - data_process_job finished ... : 2020-08-25 23:52:12.683512

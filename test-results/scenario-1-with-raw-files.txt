@@ -1,0 +1,31 @@
+>>  ==========  Data Processing Job - data_process_job started ... : 2020-08-25 23:54:12.890667
+
+
+Raw Data Files Path ... : C:\\temp\dlg\\raw\\
+Raw Data File Names Pattern ... : weather*.csv
+Files to Process ... : ['C:\\\\temp\\dlg\\\\raw\\weather.20160201.csv', 'C:\\\\temp\\dlg\\\\raw\\weather.20160301.csv']
+
+Processing the File Number - 0
+File Name ... : C:\\temp\dlg\\raw\weather.20160201.csv
+Parquet File Name ... : c:\\temp\dlg\\parquet\weather.20160201.parquet
+Write to Parquet File Name ... : c:\\temp\dlg\\parquet\weather.20160201.parquet
+
+Processing the File Number - 1
+File Name ... : C:\\temp\dlg\\raw\weather.20160301.csv
+Parquet File Name ... : c:\\temp\dlg\\parquet\weather.20160301.parquet
+Write to Parquet File Name ... : c:\\temp\dlg\\parquet\weather.20160301.parquet
+Status (convert_csv_to_parquet) ... {'Status': 'Success'}
+
+
+Parquet Data Files Path ... : C:\temp\dlg\parquet\
+Parquet Data File Names Pattern ... : weather*.parquet
+File Name ... : ['C:\\temp\\dlg\\parquet\\weather.20160201.parquet', 'C:\\temp\\dlg\\parquet\\weather.20160301.parquet']
+
+
+Priniting/Logging the results ... :
+The maximum temperature is ... : 15.8
+The day with maximum temperature is ... : 2016-03-17T00:00:00
+The region with maximum temperature is ... : Highland & Eilean Siar
+
+The Final Status of the job - data_process_job  execution is ... : {'Status': 'Success'}
+>>  ==========  Data Processing Job - data_process_job finished ... : 2020-08-25 23:54:14.943541
